@@ -21,11 +21,17 @@ The goals / steps of this project are the following:
 
 [image1]: ./examples/visualization.jpg "Visualization"
 [image2]: ./examples/grayscale.jpg "Grayscaling"
-[image4]: ./examples/test0.png "Traffic Sign 1"
-[image5]: ./examples/test2.png "Traffic Sign 2"
-[image6]: ./examples/test4.png "Traffic Sign 3"
-[image7]: ./examples/test6.png "Traffic Sign 4"
-[image8]: ./examples/test7.png "Traffic Sign 5"
+[image4]: ./examples/traffic/test0.png "Traffic Sign 1"
+[image5]: ./examples/traffic/test2.png "Traffic Sign 2"
+[image6]: ./examples/traffic/test4.png "Traffic Sign 3"
+[image7]: ./examples/traffic/test6.png "Traffic Sign 4"
+[image8]: ./examples/traffic/test7.png "Traffic Sign 5"
+[image9]: ./examples/test0.png "Bar Graph1"
+[image10]: ./examples/test1.png "Bar Graph2"
+[image11]: ./examples/test2.png "Bar Graph3"
+[image12]: ./examples/test3.png "Bar Graph4"
+[image13]: ./examples/test4.png "Bar Graph5"
+
 
 ## Rubric Points
 ###Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
@@ -173,4 +179,6 @@ Here are the results of the prediction:
 The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%. Comparing the accuracy to the test set will be somewhat harsh as we are testing on 5 images not the large datasets of all the classes as the test set
 
 ####3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction and identify where in your code softmax probabilities were outputted. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
-
+i have done the graphical representation as you have mentioned.
+![alt text][image9] ![alt text][image10] ![alt text][image11] 
+![alt text][image12] ![alt text][image13]
